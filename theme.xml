@@ -1,10 +1,6 @@
-<!--
-theme name:     Showcase
-version         1.0
--->
+<!-- theme name: Showcase version 1.0 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
-<theme>
+<?xml version="1.0" encoding="UTF-8"?> <theme>
    <formatVersion>4</formatVersion>
 
 <feature supported="carousel">
@@ -31,8 +27,9 @@ version         1.0
 
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
-         <textColor>777777</textColor>
-         <iconColor>77777750</iconColor>
+         <textColor>e22828</textColor>
+         <iconColor>FFFFFF50</iconColor>
+         <fontSize>0.03</fontSize>
       </helpsystem>
    </view>
 
@@ -45,7 +42,7 @@ version         1.0
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.032</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound></scrollSound>
          <alignment>center</alignment>
@@ -84,50 +81,51 @@ version         1.0
       <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
-         <fontSize>0.0195</fontSize>
+         <fontSize>0.0250</fontSize>
       </text>
       <text name="md_lbl_rating">
-         <pos>0.77 0.375</pos>
-         <size>0.0625 0.025</size>
+         <pos>0.84 0.150</pos>
+         <size>0.09 0.025</size>
       </text>
       <rating name="md_rating">
-         <pos>0.77 0.4</pos>
+         <pos>0.84 0.175</pos>
          <size>0.005 0.025</size>
          <filledPath>./_inc/images/star_filled.svg</filledPath>
          <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
       </rating>
       <text name="md_lbl_players">
-         <pos>0.77 0.425</pos>
-         <size>0.0625 0.025</size>
+         <pos>0.84 0.2</pos>
+         <size>0.09 0.025</size>
       </text>
       <text name="md_players">
-         <pos>0.77 0.45</pos>
-         <size>0.0375 0.025</size>
+         <pos>0.84 0.225</pos>
+         <size>0.1 0.025</size>
       </text>
       <text name="md_lbl_releasedate">
-         <pos>0.87 0.375</pos>
-         <size>0.0625 0.025</size>
+         <pos>0.84 0.25</pos>
+         <size>0.1 0.025</size>
       </text>
       <datetime name="md_releasedate">
-         <pos>0.87 0.4</pos>
-         <size>0.075 0.025</size>
+         <pos>0.84 0.275</pos>
+         <size>0.1 0.025</size>
       </datetime>
       <text name="md_lbl_genre">
-         <pos>0.87 0.425</pos>
-         <size>0.0625 0.025</size>
+         <pos>0.84 0.3</pos>
+         <size>0.09 0.025</size>
       </text>
       <text name="md_genre">
-         <pos>0.87 0.45</pos>
-         <size>0.1 0.025</size>
+         <pos>0.84 0.325</pos>
+         <size>0.13 0.050</size>
       </text>
       <text name="md_description">
          <pos>0.44 0.55</pos>
          <size>0.525 0.29</size>
          <color>FFFFFF</color>
+         <fontSize>0.0300</fontSize>
       </text>
       <textlist name="gamelist">
          <pos>0.04 0.17</pos>
-         <size>0.3 0.67</size>
+         <size>0.35 0.67</size>
          <alignment>left</alignment>
       </textlist>
    </view>
@@ -136,17 +134,17 @@ version         1.0
       <image name="logo">
          <origin>0.5 0.5</origin>
          <pos>0.21 0.065</pos>
-         <maxSize>0.12 0.12</maxSize>
+         <maxSize>0.25 0.25</maxSize>
       </image>
       <image name="md_image">
          <origin>.5 .5</origin>
-         <pos>0.547 0.314</pos>
-         <maxSize>0.24 0.34</maxSize>
+         <pos>0.63 0.250</pos>
+         <maxSize>0.5 0.5</maxSize>
       </image>
       <image name="md_marquee">
          <pos>0.748 0.19</pos>
          <origin>0 0</origin>
-         <maxSize>0.19 0.19</maxSize>
+         <maxSize>0.3 0.3</maxSize>
       </image>
    </view>
 
